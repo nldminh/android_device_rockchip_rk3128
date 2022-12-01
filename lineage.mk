@@ -13,8 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-# TODO: add this file
-#$(call inherit-product, device/xiaomi/mido/full_mido.mk)
+$(call inherit-product, device/rockchip/rk3128/full_rk3128.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
